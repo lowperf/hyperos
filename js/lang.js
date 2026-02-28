@@ -110,8 +110,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const langSwitch = document.getElementById('lang-switch');
 
-    // Check local storage for language preference or default to 'id'
-    const currentLang = localStorage.getItem('site_lang') || 'id';
+    // Check local storage for language preference or default to 'en'
+    const currentLang = localStorage.getItem('site_lang') || 'en';
     if (langSwitch) {
         langSwitch.value = currentLang;
     }

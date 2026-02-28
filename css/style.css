@@ -406,4 +406,29 @@ footer {
   .archive-section {
     padding: 60px 20px;
   }
+
+  .download-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .download-item .device-info h3 {
+    word-break: break-all;
+  }
+
+  .download-item .btn-download {
+    width: 100%;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn-primary,
+  .hero-actions .btn-download {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
